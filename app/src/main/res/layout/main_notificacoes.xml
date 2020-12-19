@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:background="#D3D3D3"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="#BDB76B"
+        android:gravity="center_horizontal"
+        android:text="Escolha as Notificações"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="29dp"
+        android:background="#3CB371"
+        android:gravity="right"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Próximo Sorteio "
+            android:layout_marginRight="20dp"
+            android:textColor="#FFFFFF"
+            android:textSize="18dp" />
+
+        <CheckBox
+            android:id="@+id/checkBox_proximo_sorteio_notificacoes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="start"
+            android:layout_marginRight="120dp"
+            android:scrollbarSize="4dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#3CB371"
+        android:gravity="right"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Resultado Sorteio "
+            android:layout_marginRight="20dp"
+            android:textColor="#FFFFFF"
+            android:textSize="18dp" />
+
+        <CheckBox
+            android:id="@+id/checkBox_resultado_sorteio_notificacoes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="start"
+            android:layout_marginRight="120dp"
+            android:scrollbarSize="4dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#3CB371"
+        android:layout_marginTop="10dp"
+        android:gravity="right"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Acumulado"
+            android:layout_marginRight="20dp"
+            android:textColor="#FFFFFF"
+
+            android:textSize="18dp" />
+
+        <CheckBox
+            android:id="@+id/checkBox_acumulado_notificacoes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="120dp"
+            android:ellipsize="start"
+            android:scrollbarSize="4dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#3CB371"
+        android:layout_marginTop="10dp"
+        android:gravity="right"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Meus jogos "
+            android:layout_marginRight="20dp"
+            android:textColor="#FFFFFF"
+            android:textSize="18dp" />
+
+        <CheckBox
+            android:id="@+id/checkBox_meus_jogos_notificacoes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="120dp"
+            android:ellipsize="start"
+            android:scrollbarSize="4dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#3CB371"
+        android:gravity="right"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/checkbox_valor_premio_notificacoes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Valor Prêmio"
+            android:layout_marginRight="20dp"
+            android:textColor="#FFFFFF"
+            android:textSize="18dp" />
+
+        <CheckBox
+            android:id="@+id/checkBox_valorpremio_notificacoes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="120dp"
+            android:ellipsize="start"
+            android:scrollbarSize="4dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+
+        <Button
+            android:id="@+id/id_bt_serv_salva_notificacoes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#808080"
+            android:text="Salvar" />
+    </LinearLayout>
+
+    <SeekBar
+        android:id="@+id/seekBar_1_notificacoes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="22dp"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:min="400000000"
+        android:max="150000000"
+        android:progress="40000000"/>
+
+    <EditText
+        android:id="@+id/editText_notifica_valorpremio_notificacoes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:gravity="center_horizontal"
+        android:hint="Valor Prêmio para Notificar"
+        android:inputType="numberDecimal" />
+
+</LinearLayout>

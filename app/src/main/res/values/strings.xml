@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Mega Premium - LCC</string>
+    <!-- Botões Tela Principal -->
+    <string name="verifica_sequencia">Verifica Sequência</string>
+    <string name="gera_sequencia_ouro">Gera Sequência Ouro</string>
+    <string name="gerar_estatistica">Gerar Estatística</string>
+    <string name="encontrar_concurso">Encontrar Concurso</string>
+    <string name="quanto_ja_gastei">Quanto já Gastei</string>
+    <string name="Qual_minha_chance">Qual é Minha Chance</string>
+    <!-- Imagens Tela Principal -->
+    <string name="img_trevo_sorte_principal">Trevo da Sorte</string>
+    <!-- Constantes Menu-->
+    <string name="const_titulo_menu">MENU</string>
+    <string name="const_notificacoes">Notificação</string>
+    <string name="const_doacao">Doação</string>
+    <string name="const_ajuda">Ajuda</string>
+
+</resources>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    >
+
+    <TextView
+        android:id="@+id/titulo_textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:background="#B0C4DE"
+        android:textColor="#FFFFFF"
+        android:textSize="22dp"
+        android:text="Se o APP foi útil para você faça uma doação" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="#B0C4DE"
+        android:layout_marginTop="20dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/id_textview_dados"
+            android:visibility="invisible"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:textColor="#FFFFFF"
+            android:textSize="18dp"
+            android:text="Caixa Econômica
+            \n\n- AG       : 0921
+            \n- Conta  : 00136060-3
+            \n- Tipo     : 013
+            \n\nBitCoin Stratum
+            \n- Conta : leandro.eng.lcc@outlook.com"
+            />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/id_botao_doacao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Liberar Dados" />
+</LinearLayout>

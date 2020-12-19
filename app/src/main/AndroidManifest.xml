@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.lcc_megapremium.megapremium_lcc">
+
+    <application
+        android:debuggable="true"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <action android:name="android.intent.action.category.LAUCHER"/>
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Views_tela_principal.Menu_doacao">
+
+        </activity>
+
+        <activity android:name=".Views_tela_principal.Menu_ajuda">
+
+        </activity>
+
+        <activity android:name=".Views_tela_principal.Menu_notificacoes">
+
+        </activity>
+
+        <activity android:name=".Views_tela_principal.Encontrar_concurso">
+
+        </activity>
+        <activity android:name=".Views_tela_principal.Gera_estatistica">
+
+        </activity>
+
+        <activity android:name=".Views_tela_principal.Gera_sequencia">
+
+        </activity>
+
+        <activity android:name=".Views_tela_principal.Qual_minha_chance">
+
+        </activity>
+
+        <activity android:name=".Views_tela_principal.Quanto_ja_gastei">
+
+        </activity>
+
+        <activity android:name=".Views_tela_principal.Verifica_sequencia">
+
+        </activity>
+    </application>
+
+</manifest>

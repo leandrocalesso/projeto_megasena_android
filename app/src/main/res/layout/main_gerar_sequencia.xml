@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--suppress ALL -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C0C0C0">
+
+    <TextView
+        android:id="@+id/id_titulo_tela_gera_sequencia"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="19dp"
+        android:paddingTop="10dp"
+        android:background="#BDB76B"
+        android:gravity="center_horizontal"
+        android:text="Gerando Sequências"
+        android:textColor="#FFFFFF"
+        android:textSize="23sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="29dp"
+        android:background="#3CB371"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/id_campo_sequencia_ouro"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:hint="Gerar Sequência Ouro"
+            android:textColor="#FFFFFF"
+            android:textSize="23sp" />
+
+    </LinearLayout>
+
+    <!-- Layout p/ Botões Ouro. !-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal">
+        <Button
+            android:id="@+id/id_bt_gera_sequencia_ouro"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Gerar" />
+        <Button
+            android:id="@+id/id_bt_salva_sequencia_ouro"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Salvar" />
+        <Button
+            android:id="@+id/id_bt_limpar_sequencia_ouro"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Limpar" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:background="#3CB371">
+
+        <TextView
+            android:id="@+id/id_campo_sequencia_aleatoria"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:hint="Gerar Sequencia Aleatória"
+            android:textColor="#FFFFFF"
+            android:textSize="23sp" />
+
+    </LinearLayout>
+
+    <!-- Layout p/ Botões Aleátorio. !-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal">
+        <Button
+            android:id="@+id/id_bt_gera_sequencia_aleat"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Gerar" />
+        <Button
+            android:id="@+id/id_bt_salva_sequencia_aleat"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Salvar" />
+        <Button
+            android:id="@+id/id_bt_limpar_sequencia_aleat"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Limpar" />
+    </LinearLayout>
+
+
+</LinearLayout>
